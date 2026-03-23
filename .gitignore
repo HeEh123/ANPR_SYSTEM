@@ -1,0 +1,10 @@
+# Create the .gitignore file
+echo "vendor/
+.env
+.DS_Store
+*.log
+cache/
+temp/
+*.sql
+node_modules/
+Thumbs.db" > .gitignore
