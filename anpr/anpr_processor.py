@@ -393,7 +393,7 @@ class ANPRProcessor:
 
 def main():
     """
-    Main function to be called from PHP
+    Main function to be called from PHP testingg
     """
     if len(sys.argv) < 2:
         print(json.dumps({'success': False, 'error': 'No image path provided'}))
